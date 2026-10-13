@@ -1,0 +1,392 @@
+{
+  "note": "Measured 32-byte built-in descriptors; callback semantic labels deliberately left inferred. Not an external plugin API.",
+  "registration_routine": "400f4000",
+  "dispatcher": "400f42ec",
+  "setup": "400f34dc",
+  "descriptors": [
+    {
+      "name": "BitCoin",
+      "descriptor_address": "3ffbdb68",
+      "descriptor_file_offset": 875332,
+      "registration_call_address": "400f3886",
+      "registration_literal_address": "400d152c",
+      "raw_32_bytes_hex": "0832403fb80a403fa9ab4b3f94230d405c3e0d4050121d40781f0d40ec3f0d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f403208",
+          "text": "BitCoin"
+        },
+        {
+          "offset": 4,
+          "value": "3f400ab8"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400d2394",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400d3e5c",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d1250",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400d1f78",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "400d3fec",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Stock",
+      "descriptor_address": "3ffbddb0",
+      "descriptor_file_offset": 875916,
+      "registration_call_address": "400f3893",
+      "registration_literal_address": "400d1530",
+      "raw_32_bytes_hex": "0dca453fc011473fa9ab4b3fc4ba0e4078db0e4034191d4084af0e4060da0e40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f45ca0d",
+          "text": "Stock"
+        },
+        {
+          "offset": 4,
+          "value": "3f4711c0"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400ebac4",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400edb78",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d1934",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400eaf84",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "400eda60",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Weather",
+      "descriptor_address": "3ffbddd4",
+      "descriptor_file_offset": 875952,
+      "registration_call_address": "400f38a1",
+      "registration_literal_address": "400d1534",
+      "raw_32_bytes_hex": "59c9453f48b3473fa9ab4b3f04f10e40b8ee0e4084191d4048e50e40d8ec0e40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f45c959",
+          "text": "Weather"
+        },
+        {
+          "offset": 4,
+          "value": "3f47b348"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400ef104",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400eeeb8",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d1984",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400ee548",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "400eecd8",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Picture",
+      "descriptor_address": "3ffbdd6c",
+      "descriptor_file_offset": 875848,
+      "registration_call_address": "400f38ae",
+      "registration_literal_address": "400d1538",
+      "raw_32_bytes_hex": "29a4453f34a4453fa9ab4b3fc49a0d40f09b0d4084171d40009a0d405c9a0d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f45a429",
+          "text": "Picture"
+        },
+        {
+          "offset": 4,
+          "value": "3f45a434"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400d9ac4",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400d9bf0",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d1784",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400d9a00",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "400d9a5c",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Monitor",
+      "descriptor_address": "3ffbdca0",
+      "descriptor_file_offset": 875644,
+      "registration_call_address": "400f38bb",
+      "registration_literal_address": "400d153c",
+      "raw_32_bytes_hex": "a6a2453f4482453fa9ab4b3fec820d403c840d40ec161d4098820d40dc8f0d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f45a2a6",
+          "text": "Monitor"
+        },
+        {
+          "offset": 4,
+          "value": "3f458244"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400d82ec",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400d843c",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d16ec",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400d8298",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "400d8fdc",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Clock",
+      "descriptor_address": "3ffbdb9c",
+      "descriptor_file_offset": 875384,
+      "registration_call_address": "400f38c9",
+      "registration_literal_address": "400d1540",
+      "raw_32_bytes_hex": "28a2433fc0a2433fa9ab4b3f605b0d40285c0d40b0131d40545b0d40b8131d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f43a228",
+          "text": "Clock"
+        },
+        {
+          "offset": 4,
+          "value": "3f43a2c0"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400d5b60",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400d5c28",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d13b0",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400d5b54",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "401d13b8",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Idea",
+      "descriptor_address": "3ffbdbc0",
+      "descriptor_file_offset": 875420,
+      "registration_call_address": "400f38d6",
+      "registration_literal_address": "400d1544",
+      "raw_32_bytes_hex": "5c61453f6461453fa9ab4b3f30660d40b4660d408c141d40d0650d4094141d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f45615c",
+          "text": "Idea"
+        },
+        {
+          "offset": 4,
+          "value": "3f456164"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400d6630",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400d66b4",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d148c",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400d65d0",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "401d1494",
+          "discovered_function": true
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "descriptor_address": "3ffbdd90",
+      "descriptor_file_offset": 875884,
+      "registration_call_address": "400f38e3",
+      "registration_literal_address": "400d1548",
+      "raw_32_bytes_hex": "eeed463f80ee463fa9ab4b3f78ac0e405cac0e4024191d403cac0e402c191d40",
+      "words": [
+        {
+          "offset": 0,
+          "value": "3f46edee",
+          "text": "Settings"
+        },
+        {
+          "offset": 4,
+          "value": "3f46ee80"
+        },
+        {
+          "offset": 8,
+          "value": "3f4baba9"
+        },
+        {
+          "offset": 12,
+          "value": "400eac78",
+          "discovered_function": true
+        },
+        {
+          "offset": 16,
+          "value": "400eac5c",
+          "discovered_function": true
+        },
+        {
+          "offset": 20,
+          "value": "401d1924",
+          "discovered_function": true
+        },
+        {
+          "offset": 24,
+          "value": "400eac3c",
+          "discovered_function": true
+        },
+        {
+          "offset": 28,
+          "value": "401d192c",
+          "discovered_function": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mapping_verified": true,
+  "same_entry_set": true,
+  "project_discovered_functions": 7125,
+  "export_inventory_entries": 7125,
+  "entry_point_registered": true,
+  "language": "Xtensa:LE:32:default",
+  "program": "FW_SmallTV-PRO_V3.3.65EN.bin"
+}

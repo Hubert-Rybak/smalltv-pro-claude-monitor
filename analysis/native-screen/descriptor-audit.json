@@ -1,0 +1,346 @@
+[
+  {
+    "name": "BitCoin",
+    "address": "3ffbdb68",
+    "source_file_offset": 875332,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400d2394",
+        "function_discovered": true,
+        "source_file_offset": 926612,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 16,
+        "target": "400d3e5c",
+        "function_discovered": true,
+        "source_file_offset": 933468,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d1250",
+        "function_discovered": true,
+        "source_file_offset": 1970768,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400d1f78",
+        "function_discovered": true,
+        "source_file_offset": 925560,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "400d3fec",
+        "function_discovered": true,
+        "source_file_offset": 933868,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Stock",
+    "address": "3ffbddb0",
+    "source_file_offset": 875916,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400ebac4",
+        "function_discovered": true,
+        "source_file_offset": 1030852,
+        "first_instruction": "entry a1,0x40"
+      },
+      {
+        "offset": 16,
+        "target": "400edb78",
+        "function_discovered": true,
+        "source_file_offset": 1039224,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d1934",
+        "function_discovered": true,
+        "source_file_offset": 1972532,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400eaf84",
+        "function_discovered": true,
+        "source_file_offset": 1027972,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "400eda60",
+        "function_discovered": true,
+        "source_file_offset": 1038944,
+        "first_instruction": "entry a1,0x30"
+      }
+    ]
+  },
+  {
+    "name": "Weather",
+    "address": "3ffbddd4",
+    "source_file_offset": 875952,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400ef104",
+        "function_discovered": true,
+        "source_file_offset": 1044740,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 16,
+        "target": "400eeeb8",
+        "function_discovered": true,
+        "source_file_offset": 1044152,
+        "first_instruction": "entry a1,0x210"
+      },
+      {
+        "offset": 20,
+        "target": "401d1984",
+        "function_discovered": true,
+        "source_file_offset": 1972612,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400ee548",
+        "function_discovered": true,
+        "source_file_offset": 1041736,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "400eecd8",
+        "function_discovered": true,
+        "source_file_offset": 1043672,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Picture",
+    "address": "3ffbdd6c",
+    "source_file_offset": 875848,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400d9ac4",
+        "function_discovered": true,
+        "source_file_offset": 957124,
+        "first_instruction": "entry a1,0x30"
+      },
+      {
+        "offset": 16,
+        "target": "400d9bf0",
+        "function_discovered": true,
+        "source_file_offset": 957424,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d1784",
+        "function_discovered": true,
+        "source_file_offset": 1972100,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400d9a00",
+        "function_discovered": true,
+        "source_file_offset": 956928,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "400d9a5c",
+        "function_discovered": true,
+        "source_file_offset": 957020,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Monitor",
+    "address": "3ffbdca0",
+    "source_file_offset": 875644,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400d82ec",
+        "function_discovered": true,
+        "source_file_offset": 951020,
+        "first_instruction": "entry a1,0x50"
+      },
+      {
+        "offset": 16,
+        "target": "400d843c",
+        "function_discovered": true,
+        "source_file_offset": 951356,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d16ec",
+        "function_discovered": true,
+        "source_file_offset": 1971948,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400d8298",
+        "function_discovered": true,
+        "source_file_offset": 950936,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "400d8fdc",
+        "function_discovered": true,
+        "source_file_offset": 954332,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Clock",
+    "address": "3ffbdb9c",
+    "source_file_offset": 875384,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400d5b60",
+        "function_discovered": true,
+        "source_file_offset": 940896,
+        "first_instruction": "entry a1,0x180"
+      },
+      {
+        "offset": 16,
+        "target": "400d5c28",
+        "function_discovered": true,
+        "source_file_offset": 941096,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d13b0",
+        "function_discovered": true,
+        "source_file_offset": 1971120,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400d5b54",
+        "function_discovered": true,
+        "source_file_offset": 940884,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "401d13b8",
+        "function_discovered": true,
+        "source_file_offset": 1971128,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Idea",
+    "address": "3ffbdbc0",
+    "source_file_offset": 875420,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400d6630",
+        "function_discovered": true,
+        "source_file_offset": 943664,
+        "first_instruction": "entry a1,0x30"
+      },
+      {
+        "offset": 16,
+        "target": "400d66b4",
+        "function_discovered": true,
+        "source_file_offset": 943796,
+        "first_instruction": "entry a1,0x30"
+      },
+      {
+        "offset": 20,
+        "target": "401d148c",
+        "function_discovered": true,
+        "source_file_offset": 1971340,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400d65d0",
+        "function_discovered": true,
+        "source_file_offset": 943568,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "401d1494",
+        "function_discovered": true,
+        "source_file_offset": 1971348,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  },
+  {
+    "name": "Settings",
+    "address": "3ffbdd90",
+    "source_file_offset": 875884,
+    "descriptor_bytes_match_original": true,
+    "callbacks": [
+      {
+        "offset": 12,
+        "target": "400eac78",
+        "function_discovered": true,
+        "source_file_offset": 1027192,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 16,
+        "target": "400eac5c",
+        "function_discovered": true,
+        "source_file_offset": 1027164,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 20,
+        "target": "401d1924",
+        "function_discovered": true,
+        "source_file_offset": 1972516,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 24,
+        "target": "400eac3c",
+        "function_discovered": true,
+        "source_file_offset": 1027132,
+        "first_instruction": "entry a1,0x20"
+      },
+      {
+        "offset": 28,
+        "target": "401d192c",
+        "function_discovered": true,
+        "source_file_offset": 1972524,
+        "first_instruction": "entry a1,0x20"
+      }
+    ]
+  }
+]

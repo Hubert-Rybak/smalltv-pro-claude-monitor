@@ -1,0 +1,33 @@
+{
+  "scope": "Local publication checks, not firmware/hardware, login or GitHub CI validation",
+  "tests": {
+    "portable": {
+      "counts": {
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "junit_sha256": "41f627c48fb43420b39a03c9bbc0060ae5ba7db69d247d9f3b7b2f790a43f423"
+    },
+    "original_evidence": {
+      "counts": {
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "junit_sha256": "a93d044b01e6b517600c1ce231da1d416556c5002af4910be97ff2d4113c5336"
+    }
+  },
+  "static_checks": {
+    "files_scanned": 43,
+    "python_syntax_checked": 11,
+    "shell_syntax_checked": 4,
+    "json_parsed": 14,
+    "issues": []
+  },
+  "judge_used": false,
+  "firmware_generated": false,
+  "device_modified": false
+}

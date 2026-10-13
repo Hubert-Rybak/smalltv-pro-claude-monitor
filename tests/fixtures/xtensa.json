@@ -1,0 +1,34 @@
+{
+  "provenance": "Four tiny actual instruction records, extracted from the pinned local vendor image; not simulated device/account output",
+  "vendor_sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "records": [
+    {
+      "kind": "call8",
+      "pc": 1074739334,
+      "target": 1074741248,
+      "source_file_offset": 1063046,
+      "instruction_hex": "a57700"
+    },
+    {
+      "kind": "call8",
+      "pc": 1074739427,
+      "target": 1074741248,
+      "source_file_offset": 1063139,
+      "instruction_hex": "e57100"
+    },
+    {
+      "kind": "call8",
+      "pc": 1074739437,
+      "target": 1074741288,
+      "source_file_offset": 1063149,
+      "instruction_hex": "a57300"
+    },
+    {
+      "kind": "l32r",
+      "pc": 1074739419,
+      "target": 1074599240,
+      "source_file_offset": 1063131,
+      "instruction_hex": "b11b77"
+    }
+  ]
+}

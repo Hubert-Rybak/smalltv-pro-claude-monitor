@@ -1,0 +1,77 @@
+{
+  "ghidra_version": "12.1.4",
+  "program": "FW_SmallTV-PRO_V3.3.65EN.bin",
+  "language": "Xtensa:LE:32:default",
+  "analysis_timed_out": false,
+  "discovered_functions": 7125,
+  "assembly_exported": 7125,
+  "pseudocode_exported": 7125,
+  "decompile_failures": 0,
+  "successful_functions_with_warnings": 991,
+  "decompile_timeout_seconds_per_function": 20,
+  "string_count": 5151,
+  "initialized_executable_segment_bytes": 1204900,
+  "all_disassembled_instruction_count": 420475,
+  "all_disassembled_instruction_bytes": 1115027,
+  "unique_function_instruction_bytes": 1114847,
+  "summed_function_instruction_bytes_may_overlap": 1114847,
+  "memory_blocks": [
+    {
+      "name": "DROM",
+      "start": "3f400020",
+      "end_inclusive": "3f4d5b33",
+      "size": 875284,
+      "initialized": true,
+      "executable": false
+    },
+    {
+      "name": "DRAM_unsupplied_low",
+      "start": "3ffae000",
+      "end_inclusive": "3ffbdb5f",
+      "size": 64352,
+      "initialized": false,
+      "executable": false
+    },
+    {
+      "name": "DRAM",
+      "start": "3ffbdb60",
+      "end_inclusive": "3ffc417f",
+      "size": 26144,
+      "initialized": true,
+      "executable": false
+    },
+    {
+      "name": "DRAM_unsupplied_high",
+      "start": "3ffc4180",
+      "end_inclusive": "3ffdffff",
+      "size": 114304,
+      "initialized": false,
+      "executable": false
+    },
+    {
+      "name": "IRAM_0",
+      "start": "40080000",
+      "end_inclusive": "40083eb3",
+      "size": 16052,
+      "initialized": true,
+      "executable": true
+    },
+    {
+      "name": "IRAM_1",
+      "start": "40083eb4",
+      "end_inclusive": "40097153",
+      "size": 78496,
+      "initialized": true,
+      "executable": true
+    },
+    {
+      "name": "IROM",
+      "start": "400d0020",
+      "end_inclusive": "401df16f",
+      "size": 1110352,
+      "initialized": true,
+      "executable": true
+    }
+  ],
+  "coverage_warning": "100% inventory export is NOT complete binary/source coverage; executable segments include literal pools. ENTRY seeds are heuristics; indirect callbacks, ROM and uninitialized RAM are incomplete. Decompiler types and parameter counts are inferred."
+}

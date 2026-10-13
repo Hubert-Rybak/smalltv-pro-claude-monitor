@@ -1,0 +1,2 @@
+# Preserve the byte-exact recorded test snapshot's final blank line.
+verification/recorded-analysis-tests/test_export_contract.py whitespace=-blank-at-eof

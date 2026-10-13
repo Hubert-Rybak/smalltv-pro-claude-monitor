@@ -1,0 +1,71 @@
+{
+  "provenance": "Exact vendor release application image; NOT a device flash dump or full 8MB flash",
+  "vendor_path": "/opt/data/smalltv-pro-recon/vendor/firmware/PRO_V3.3.65EN/FW_SmallTV-PRO_V3.3.65EN.bin",
+  "vendor_sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "language": "Xtensa:LE:32:default",
+  "compiler_spec": "default",
+  "entry_address": "40083200",
+  "entry_bytes_hex": "368100a115f525dd0fa2a000812ff5e00800a04a20a2a001812cf5e00800a11e",
+  "segments": [
+    {
+      "index": 0,
+      "name": "DROM",
+      "address": "3f400020",
+      "length": 875284,
+      "header_offset": 24,
+      "data_offset": 32,
+      "executable": false,
+      "mapped_sha256": "cf17893a786b3a437464dde596ca29495d754c7977154bc5bab61165a6c115fc",
+      "ghidra_source_file_offset": 32
+    },
+    {
+      "index": 1,
+      "name": "DRAM",
+      "address": "3ffbdb60",
+      "length": 26144,
+      "header_offset": 875316,
+      "data_offset": 875324,
+      "executable": false,
+      "mapped_sha256": "1c7ccff9259203e8fc88e218dfd81fa421cd351290be8f8ffa0852125fab3c73",
+      "ghidra_source_file_offset": 875324
+    },
+    {
+      "index": 2,
+      "name": "IRAM_0",
+      "address": "40080000",
+      "length": 16052,
+      "header_offset": 901468,
+      "data_offset": 901476,
+      "executable": true,
+      "mapped_sha256": "98bd609f27da723f4abef7ba3a8b27ca5295bf80f26fad59bced308d559a4d16",
+      "ghidra_source_file_offset": 901476
+    },
+    {
+      "index": 3,
+      "name": "IROM",
+      "address": "400d0020",
+      "length": 1110352,
+      "header_offset": 917528,
+      "data_offset": 917536,
+      "executable": true,
+      "mapped_sha256": "626e478b1efc6a3f164faa782565044b101a8f82877c811eeae9e992e64f0ae3",
+      "ghidra_source_file_offset": 917536
+    },
+    {
+      "index": 4,
+      "name": "IRAM_1",
+      "address": "40083eb4",
+      "length": 78496,
+      "header_offset": 2027888,
+      "data_offset": 2027896,
+      "executable": true,
+      "mapped_sha256": "2134dce50e0d45926d7767da28aa9fe5293ebd247d7e9286053e30bff6d5bd77",
+      "ghidra_source_file_offset": 2027896
+    }
+  ],
+  "seed_candidates": 7137,
+  "seed_created": 7107,
+  "seed_skipped": 30,
+  "seed_failures": 0,
+  "unsupplied_memory": "Two uninitialized DRAM gaps; ROM, MMIO, partition table and filesystem image not supplied"
+}

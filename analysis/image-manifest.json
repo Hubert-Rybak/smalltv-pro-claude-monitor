@@ -1,0 +1,62 @@
+{
+  "size": 2106432,
+  "sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "chip_id": 0,
+  "segment_count": 5,
+  "segments": [
+    {
+      "index": 0,
+      "address": 1061158944,
+      "length": 875284,
+      "header_offset": 24,
+      "data_offset": 32,
+      "sha256": "cf17893a786b3a437464dde596ca29495d754c7977154bc5bab61165a6c115fc",
+      "executable": false
+    },
+    {
+      "index": 1,
+      "address": 1073470304,
+      "length": 26144,
+      "header_offset": 875316,
+      "data_offset": 875324,
+      "sha256": "1c7ccff9259203e8fc88e218dfd81fa421cd351290be8f8ffa0852125fab3c73",
+      "executable": false
+    },
+    {
+      "index": 2,
+      "address": 1074266112,
+      "length": 16052,
+      "header_offset": 901468,
+      "data_offset": 901476,
+      "sha256": "98bd609f27da723f4abef7ba3a8b27ca5295bf80f26fad59bced308d559a4d16",
+      "executable": true
+    },
+    {
+      "index": 3,
+      "address": 1074593824,
+      "length": 1110352,
+      "header_offset": 917528,
+      "data_offset": 917536,
+      "sha256": "626e478b1efc6a3f164faa782565044b101a8f82877c811eeae9e992e64f0ae3",
+      "executable": true
+    },
+    {
+      "index": 4,
+      "address": 1074282164,
+      "length": 78496,
+      "header_offset": 2027888,
+      "data_offset": 2027896,
+      "sha256": "2134dce50e0d45926d7767da28aa9fe5293ebd247d7e9286053e30bff6d5bd77",
+      "executable": true
+    }
+  ],
+  "entry_address": 1074278912,
+  "entry_file_offset": 914276,
+  "entry_bytes_hex": "368100a115f525dd0fa2a000812ff5e00800a04a20a2a001812cf5e00800a11e",
+  "checksum_offset": 2106399,
+  "checksum": 26,
+  "checksum_valid": true,
+  "image_digest_valid": true,
+  "provenance": "vendor release application image; NOT device flash dump",
+  "source_path": "/opt/data/smalltv-pro-recon/vendor/firmware/PRO_V3.3.65EN/FW_SmallTV-PRO_V3.3.65EN.bin"
+}

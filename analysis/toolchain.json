@@ -1,0 +1,21 @@
+{
+  "ghidra_version": "12.1.4",
+  "language": "Xtensa:LE:32:default",
+  "jdk_version": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)\n",
+  "python_version": "Python 3.14.7\n",
+  "analyze_headless_path": "/opt/data/tools/ghidra_12.1.4_PUBLIC/support/analyzeHeadless",
+  "tools": [
+    {
+      "path": "/opt/data/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Xtensa/data/languages/xtensa_le.sla",
+      "sha256": "902615399ba784748969049bf962508362b8b88413a9361f75bc81f657d5dc17"
+    },
+    {
+      "path": "/opt/data/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Xtensa/data/languages/xtensa.cspec",
+      "sha256": "32aa69ea801b595efd6626d09b57b7dff591f7d0b528e87f47f11634f62e00a8"
+    },
+    {
+      "path": "/opt/data/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/os/linux_x86_64/decompile",
+      "sha256": "4a97ff9a3dbac5757c7240a664571e82345e4abc4f67cd211cd9d402abe4543d"
+    }
+  ]
+}

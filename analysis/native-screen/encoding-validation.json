@@ -1,0 +1,6 @@
+{
+  "basis": "Pinned Ghidra xtensaArch.sinc and xtensaMain.sinc encoding rules; compared against original-byte assembly exports, not guessed source",
+  "call8_checked": 24449,
+  "l32r_checked": 32109,
+  "mismatches": []
+}

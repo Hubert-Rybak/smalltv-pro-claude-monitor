@@ -1,0 +1,11 @@
+{
+  "vendor_sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "discovered_functions": 7125,
+  "orphan_instruction_count": 70,
+  "orphan_instruction_bytes": 180,
+  "fill_run_count": 15,
+  "stock_descriptors": 8,
+  "callback_slots_audited": 40,
+  "read_only_audit": true,
+  "modified_firmware_generated": false
+}

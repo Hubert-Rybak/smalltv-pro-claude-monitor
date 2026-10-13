@@ -1,0 +1,150 @@
+{
+  "vendor_sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "registry_capacity": 12,
+  "stock_registration_count": 8,
+  "registry_capacity_evidence": "401d1b94.asm at 401d1b9e loads 0xb; 401d1ba2 permits unsigned count <=11 before the next registration",
+  "controller_pointer_array_offset": 16,
+  "controller_paired_value_array_offset": 64,
+  "controller_count_offset": 132,
+  "append_code_start": "401df170",
+  "append_is_code_placement_candidate_only": true,
+  "append_fit_in_device_partition_established": false,
+  "stock_registration_calls": [
+    {
+      "app": "BitCoin",
+      "call_address": "400f3886",
+      "source_file_offset": 1063046,
+      "raw_call_bytes_hex": "a57700",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964840,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Stock",
+      "call_address": "400f3893",
+      "source_file_offset": 1063059,
+      "raw_call_bytes_hex": "e57600",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964828,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Weather",
+      "call_address": "400f38a1",
+      "source_file_offset": 1063073,
+      "raw_call_bytes_hex": "e57500",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964812,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Picture",
+      "call_address": "400f38ae",
+      "source_file_offset": 1063086,
+      "raw_call_bytes_hex": "257500",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964800,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Monitor",
+      "call_address": "400f38bb",
+      "source_file_offset": 1063099,
+      "raw_call_bytes_hex": "657400",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964788,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Clock",
+      "call_address": "400f38c9",
+      "source_file_offset": 1063113,
+      "raw_call_bytes_hex": "657300",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964772,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Idea",
+      "call_address": "400f38d6",
+      "source_file_offset": 1063126,
+      "raw_call_bytes_hex": "a57200",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964760,
+      "maximum_positive_call8_delta": 524284
+    },
+    {
+      "app": "Settings",
+      "call_address": "400f38e3",
+      "source_file_offset": 1063139,
+      "raw_call_bytes_hex": "e57100",
+      "decoded_target": "400f4000",
+      "append_code_reachable_by_direct_call8": false,
+      "append_code_delta_from_call_base": 964748,
+      "maximum_positive_call8_delta": 524284
+    }
+  ],
+  "last_registration_window": {
+    "start": "400f38e0",
+    "source_file_offset": 1063136,
+    "bytes_hex": "101120e57100",
+    "stock_instructions": [
+      "mov a1,a1",
+      "call8 0x400f4000"
+    ],
+    "candidate_replacement_size_bytes": 6,
+    "indirect_call_plan": "L32R a8 from a separately verified nearby literal, then CALLX8 a8; no such patch was generated",
+    "literal_location_established": false,
+    "l32r_can_load_literal_at_append_address": false,
+    "l32r_lowest_reachable_literal": "400b38e0",
+    "l32r_highest_reachable_literal": "400f38dc"
+  },
+  "startup_dram_clear": {
+    "start": "3ffc4180",
+    "end_exclusive": "3ffd4818",
+    "length": 67224,
+    "startup_call_address": "40083229",
+    "boundary_literals": [
+      {
+        "address": "40080698",
+        "source_file_offset": 903164,
+        "value": 1073496448,
+        "raw_bytes_hex": "8041fc3f"
+      },
+      {
+        "address": "40080694",
+        "source_file_offset": 903160,
+        "value": 1073563672,
+        "raw_bytes_hex": "1848fd3f"
+      }
+    ],
+    "original_initialized_dram_end": "3ffc4180",
+    "naive_descriptor_at_original_dram_end_would_be_cleared": true,
+    "warning": "Do not grow the initialized DRAM segment into existing BSS globals; startup explicitly clears this range"
+  },
+  "existing_screen_callback_data_hook": {
+    "app": "Monitor",
+    "descriptor_slot_offset": 16,
+    "address": "3ffbdcb0",
+    "source_file_offset": 875660,
+    "raw_bytes_hex": "3c840d40",
+    "stock_target": "400d843c",
+    "dispatcher_indirect_call": "400f43a9",
+    "adds_ninth_app": false,
+    "runtime_safety_established": false,
+    "warning": "Changing this pointer would replace existing Monitor loop behavior, not register an additional screen. Callback/UI lifecycle compatibility is untested."
+  },
+  "image_file_alignment": {
+    "irom_payload_offset_mod_64k": 32,
+    "irom_virtual_address_mod_64k": 32
+  },
+  "modified_firmware_generated": false,
+  "warning": "Static instruction/layout compatibility only. No runtime callback ABI, literal-slot reuse, UI lifecycle, partition capacity or secure-boot validation was performed."
+}

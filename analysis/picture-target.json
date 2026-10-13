@@ -1,0 +1,116 @@
+{
+  "status": "Picture replacement selected and source boundaries authenticated; no patched firmware generated",
+  "replacement_goal": "Claude Code session limits and usage, from the original user request",
+  "vendor_sha256": "1aa9a0408e8a3bee568a45376eb2583fe35ba4daafc14880a8cf1531540066be",
+  "stock_slot": 3,
+  "stock_internal_name": "Picture",
+  "descriptor_address": "3ffbdd6c",
+  "descriptor_file_offset": 875848,
+  "stock_descriptor_bytes_hex": "29a4453f34a4453fa9ab4b3fc49a0d40f09b0d4084171d40009a0d405c9a0d40",
+  "callbacks": [
+    {
+      "inferred_role": "initialization",
+      "descriptor_offset": 12,
+      "pointer_address": "3ffbdd78",
+      "pointer_file_offset": 875860,
+      "stock_target": "400d9ac4",
+      "function_body_bytes": 281,
+      "stock_pseudocode": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9ac4.c",
+      "stock_assembly": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9ac4.asm",
+      "assembly_sha256": "eb0b7ed56c5c085c0682ad7b878e9fa475b5539822ac2358fba93186418786a6"
+    },
+    {
+      "inferred_role": "update",
+      "descriptor_offset": 16,
+      "pointer_address": "3ffbdd7c",
+      "pointer_file_offset": 875864,
+      "stock_target": "400d9bf0",
+      "function_body_bytes": 575,
+      "stock_pseudocode": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9bf0.c",
+      "stock_assembly": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9bf0.asm",
+      "assembly_sha256": "9511e373029e5dcbdb0e414c494969bbd8e340e30974bccc7c880e4c6d5e84c2"
+    },
+    {
+      "inferred_role": "auxiliary/no-op in current image",
+      "descriptor_offset": 20,
+      "pointer_address": "3ffbdd80",
+      "pointer_file_offset": 875868,
+      "stock_target": "401d1784",
+      "function_body_bytes": 5,
+      "stock_pseudocode": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/401d1784.c",
+      "stock_assembly": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/401d1784.asm",
+      "assembly_sha256": "aeee2cd1823d43c65ffe0f599bb87e2bc83f759fc494cf9cd2f8bfd22f01c65d"
+    },
+    {
+      "inferred_role": "cleanup",
+      "descriptor_offset": 24,
+      "pointer_address": "3ffbdd84",
+      "pointer_file_offset": 875872,
+      "stock_target": "400d9a00",
+      "function_body_bytes": 91,
+      "stock_pseudocode": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9a00.c",
+      "stock_assembly": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9a00.asm",
+      "assembly_sha256": "0ccf769708534757a4f966c9f7d8a8c82bce7c6cab988842197ee1d6e5ac7d98"
+    },
+    {
+      "inferred_role": "configuration events",
+      "descriptor_offset": 28,
+      "pointer_address": "3ffbdd88",
+      "pointer_file_offset": 875876,
+      "stock_target": "400d9a5c",
+      "function_body_bytes": 101,
+      "stock_pseudocode": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9a5c.c",
+      "stock_assembly": "/opt/data/smalltv-pro-recon/decompilation/exports/functions/400d9a5c.asm",
+      "assembly_sha256": "feb5a4d4c1a17c44eb86fc8482354667849404f35adbb26aeaa09075aed81aea"
+    }
+  ],
+  "preserved_apps": [
+    "BitCoin",
+    "Stock",
+    "Weather",
+    "Monitor",
+    "Clock",
+    "Idea",
+    "Settings"
+  ],
+  "invariants": [
+    "Do not add a ninth registration",
+    "Preserve existing menu/touch-controller behavior",
+    "Do not delete or rewrite stored /image assets",
+    "Preserve boot, Wi-Fi, filesystem and OTA handlers",
+    "Guard or replace Picture configuration-event callback together with its lifecycle; old event handler dereferences Picture-owned state",
+    "Retain internal Picture identity until all hardcoded name-routing dependencies are addressed"
+  ],
+  "proposed_views": [
+    "five-hour and seven-day usage snapshots with reset countdowns",
+    "context/session details when source provides them"
+  ],
+  "data_rules": [
+    "Only sanitized native-client telemetry; never Claude credentials on ESP32",
+    "Unavailable/offline/expired states must not be shown as zero usage",
+    "No invented real account values"
+  ],
+  "configuration": {
+    "management_surface": "Device web interface",
+    "host_os_question_required_for_screen_configuration": false,
+    "actions": [
+      "Connect/sign in through a supported backend and official native Claude Code flow",
+      "View connection and data-availability status",
+      "Test connection",
+      "Select account/session data source when available",
+      "Configure refresh interval and displayed metrics",
+      "Disconnect/reconnect"
+    ],
+    "authentication_boundary": "Official unmodified native Claude Code owns subscription authentication on the backend; the ESP32 and custom configuration form do not collect Claude passwords, OAuth tokens or browser cookies",
+    "device_credential_scope": "A dedicated local relay/pairing credential only, if authentication is required",
+    "direct_esp32_consumer_login_api_verified": false,
+    "web_login_implementation_verified": false
+  },
+  "remaining_input": [
+    "A supported backend/source connection configured through the web interface",
+    "User completion of the official native login when that connector is implemented and tested"
+  ],
+  "firmware_modified": false,
+  "device_modified": false,
+  "judge_used": false
+}

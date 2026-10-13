@@ -1,0 +1,40 @@
+{
+  "discovered": 7125,
+  "assembly_files": 7125,
+  "pseudocode_files": 7125,
+  "unique_entries": 7125,
+  "failures": 0,
+  "warning_functions": 991,
+  "pcode_error_functions": [
+    "40080400",
+    "4008f314",
+    "40132144",
+    "401321b8",
+    "40161770",
+    "401834e4",
+    "401b58ec",
+    "401b5918",
+    "401b5968",
+    "401b6724",
+    "401b675c",
+    "401b69c4",
+    "401d641c"
+  ],
+  "bad_instruction_pseudocode_functions": [
+    "40080400",
+    "4008f314",
+    "40161770",
+    "401834e4",
+    "401b58ec",
+    "401b5918",
+    "401b5968",
+    "401b6724",
+    "401b675c",
+    "401b69c4",
+    "401d641c"
+  ],
+  "exported_instruction_count": 420405,
+  "unique_exported_instruction_bytes": 1114847,
+  "initialized_executable_bytes": 1204900,
+  "fraction_of_executable_segment_bytes_percent_not_code_coverage": 92.5261
+}

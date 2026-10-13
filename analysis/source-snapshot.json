@@ -1,0 +1,180 @@
+{
+  "scope": "Curated source and derived metadata; vendor binaries, assets and raw exports excluded",
+  "files": [
+    {
+      "path": "analysis/app-descriptors.json",
+      "sha256": "aa15788e3d22193ce40f7fdd09b0fb97d7d6ca6de20c6c4c8a77533cc77f706b",
+      "bytes": 9468
+    },
+    {
+      "path": "analysis/decompilation-summary.json",
+      "sha256": "8a8a36b7a1648db2ffd44b92eed6cd0726669232e29c194764cbe8f2c79feb21",
+      "bytes": 2171
+    },
+    {
+      "path": "analysis/image-manifest.json",
+      "sha256": "569f242f6aeae829781a6cd559e1693b8752c855ba27be624dddf85fc22ef01a",
+      "bytes": 1856
+    },
+    {
+      "path": "analysis/mapped-image.json",
+      "sha256": "02cc45982add45c2017b725e4ccf03ae0bc40a9c4c58440b08a622c0423e7ec1",
+      "bytes": 2337
+    },
+    {
+      "path": "analysis/native-screen/audit-summary.json",
+      "sha256": "d5a69d42b17e0547a30a73d3ab7795fe6bc246eee0b40ac1f686f02c5130204c",
+      "bytes": 340
+    },
+    {
+      "path": "analysis/native-screen/descriptor-audit.json",
+      "sha256": "0675b4ac1bb361afff4c15f515183c8d3c29bb9103b97122a44d777bd7ad42a2",
+      "bytes": 8877
+    },
+    {
+      "path": "analysis/native-screen/encoding-validation.json",
+      "sha256": "2510a3aca8a2af627cecf0d71b733b50ebb0939824732101646ed720bf8ac794",
+      "bytes": 222
+    },
+    {
+      "path": "analysis/native-screen/hook-review.json",
+      "sha256": "5e5f13c8871678348b239d6bd4586b703f2a46dd1487376b99b0e3e6b6439787",
+      "bytes": 5366
+    },
+    {
+      "path": "analysis/picture-target.json",
+      "sha256": "de92ea17f27b97082122d53483beb228ccc2d2827e41f49ec4e8d601576e13d3",
+      "bytes": 5315
+    },
+    {
+      "path": "analysis/project-readback.json",
+      "sha256": "cae3039a1f70ac2ce6003f6cfcfafca726be454716464f4233501aa171e1afe8",
+      "bytes": 250
+    },
+    {
+      "path": "analysis/toolchain.json",
+      "sha256": "0f53e9ef24134828f6ffd08c4c6ac43c2d3e8907cf4fb1314922e19cb9611858",
+      "bytes": 1059
+    },
+    {
+      "path": "analysis/verified-counts.json",
+      "sha256": "e042d1d286a3cc0ea1a245d7d5a122f033b6f717f34d35f0627472a1b97bdc8e",
+      "bytes": 823
+    },
+    {
+      "path": "docs/claude-usage-sources.md",
+      "sha256": "2a8daf1ec43d40d07b780dd2cf0ec608e96abe5bc2ac59bde6a047f67c858eb8",
+      "bytes": 19648
+    },
+    {
+      "path": "docs/decompilation-report.md",
+      "sha256": "01f7efd4815064057c80c641e7981018a69fea220a27364a7d3653404ed5c28b",
+      "bytes": 11050
+    },
+    {
+      "path": "docs/native-screen-assessment.md",
+      "sha256": "ca1a19dbfa63c3d6e3677b052f6f1c53099da4bc399cbbf5aa86771abe91bb67",
+      "bytes": 6598
+    },
+    {
+      "path": "docs/ota-safety-review.md",
+      "sha256": "df29a7c0df5131f9c8b0365897e05172bfa3fce8b0c4c2ca998167dd009b6687",
+      "bytes": 29699
+    },
+    {
+      "path": "docs/screen-web-config.md",
+      "sha256": "831469db70e36e8257d8756265e229ceb12158abcce0448aa230af96b3b89c7c",
+      "bytes": 4544
+    },
+    {
+      "path": "tools/esp_image.py",
+      "sha256": "0c51107b3fa37e55beae511a4473767cf0557755d74a6d946897397dc531f8c2",
+      "bytes": 3077
+    },
+    {
+      "path": "tools/ghidra/ExportEsp32Analysis.java",
+      "sha256": "0c695e1fd8366e832b24fc8b784c6dcdaab0c2850b2e6f7fc1b32564d81e3741",
+      "bytes": 14535
+    },
+    {
+      "path": "tools/ghidra/MapEsp32Image.java",
+      "sha256": "65892e53e2d872908411d463adc09ffe7af626a64b97296e2e3ae5bd8fa1dc42",
+      "bytes": 7646
+    },
+    {
+      "path": "tools/ghidra/VerifyEsp32Readback.java",
+      "sha256": "6384b2c6004c816c04d34990bd40aaee1c9f54ed7310c768fcfebac29e1a2149",
+      "bytes": 2825
+    },
+    {
+      "path": "tools/ghidra/hash_artifacts.py",
+      "sha256": "c688f31a295e8d7ab3053621035b425fc13eec2460cdc16db737c5b1ebe90dd6",
+      "bytes": 1931
+    },
+    {
+      "path": "tools/ghidra/run_headless.sh",
+      "sha256": "e4b35a9cc626179ebe6dec350cd864894ac7a54a8341c29ad7a24101bde33c0d",
+      "bytes": 1113
+    },
+    {
+      "path": "tools/ghidra/run_readback.sh",
+      "sha256": "1d681f3ba9ca08a488e33cb0fd6e3f4348f6a0be8d460d09beeedb6534a126d1",
+      "bytes": 715
+    },
+    {
+      "path": "tools/ghidra/select_focus.py",
+      "sha256": "41c30271fa05100ce12fb5cda04526173c1dbb6e23bfc5b32eb86ab49eb6fb1f",
+      "bytes": 3301
+    },
+    {
+      "path": "tools/native-screen/AuditNativeScreen.java",
+      "sha256": "0a852a2135e0f92649b8ce45fc176eb5e6bacdcb7abf88b88560081d5f700262",
+      "bytes": 9553
+    },
+    {
+      "path": "tools/native-screen/review_hooks.py",
+      "sha256": "bcb89e212d06a2188eb50dc30ffe9e9f0de1997df3cf962f550baefad9b843c1",
+      "bytes": 8479
+    },
+    {
+      "path": "tools/native-screen/run_audit.sh",
+      "sha256": "f939b0a5164e0f2727024f35fec54594dbc93342de2df106df3e9303bc66206b",
+      "bytes": 862
+    },
+    {
+      "path": "tools/native-screen/run_followup.sh",
+      "sha256": "084e9ca4ff7debf53cb41044fc54e95ce134f6fae72661073b5b6af05a86631d",
+      "bytes": 757
+    },
+    {
+      "path": "tools/xtensa_reach.py",
+      "sha256": "310bc63259cc96e7cbbc4dd6eb7d5c6212ed55c6572a9ff3a1de7eea1bead37f",
+      "bytes": 1159
+    },
+    {
+      "path": "verification/recorded-analysis-tests/test_artifact_hashes.py",
+      "sha256": "a356ffcc9e904962c4b7246b060af8d4312bc92a9e51f69dc5d0fb1a570801f9",
+      "bytes": 1315
+    },
+    {
+      "path": "verification/recorded-analysis-tests/test_export_contract.py",
+      "sha256": "eb55514a23bc45f30ae2dce3b33888d71dd515ff50c3092b2c6ceb945ccbc99d",
+      "bytes": 4819
+    },
+    {
+      "path": "verification/recorded-analysis-tests/test_focus.py",
+      "sha256": "74eb73900aa05c968cbfe747be958d499cdabccd0a63000eb98cc4ad6dacb227",
+      "bytes": 2111
+    },
+    {
+      "path": "verification/recorded-analysis-tests/test_image.py",
+      "sha256": "bd29555225a139eb15218122661241a98aa2e77aa80de5e68c55b4ef43abb65b",
+      "bytes": 2560
+    },
+    {
+      "path": "verification/recorded-native-tests/test_followup.py",
+      "sha256": "13c35808c1af08027b6c5e0aecb3d421a7ba844ac90c66ba55b8192bb31b572b",
+      "bytes": 5194
+    }
+  ]
+}
