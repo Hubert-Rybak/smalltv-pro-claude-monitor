@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Usage screen configuration · SmallTV-PRO</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<main>
+<header><div><div class="eyebrow">SMALLTV-PRO / PICTURE SLOT</div><h1>Usage screen configuration</h1><p>Connect a native client, choose your data and configure the screen here.</p></div><span class="prototype">Not installed on the device</span></header>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<div class="layout">
+<section class="card" aria-labelledby="connection-title">
+<div class="section-head"><h2 id="connection-title">Connection</h2><span id="connection-state" class="badge">Loading…</span></div>
+<p id="connection-detail">Checking the backend. No account data is assumed.</p>
+<div class="native-row"><span>Official native client</span><strong id="native-state">Checking…</strong></div>
+<label for="auth-method">Native sign-in method</label>
+<select id="auth-method"><option value="default">Native default</option><option value="subscription">Claude subscription</option><option value="console">Anthropic Console</option></select>
+<label class="check"><input id="sso" type="checkbox"> Use the native client's SSO flow</label>
+<div class="actions"><button id="connect" class="primary" disabled>Connect / sign in</button><button id="test" disabled>Test connection</button><button id="disconnect" disabled>Disconnect display</button></div>
+<p class="small">Disconnect affects only this display. It does not sign your native client out.</p>
+<section id="native-terminal" class="terminal" hidden aria-labelledby="terminal-title">
+<h3 id="terminal-title">Official native client terminal</h3>
+<p class="small">Sign in on the official site. If that site returns an authorization code, enter it only into the native client's terminal below. Input is forwarded directly to that unmodified process and is not saved as a device setting.</p>
+<a id="official-sign-in" class="external" target="_blank" rel="noopener noreferrer" hidden>Open official sign-in ↗</a>
+<pre id="terminal-output" aria-live="polite"></pre>
+<form id="native-input-form"><label for="native-input">Input to the native client</label><div class="input-row"><input id="native-input" type="text" autocomplete="off" spellcheck="false" autocapitalize="off" maxlength="4095"><button id="send-native" type="submit">Send to client</button></div></form>
+<button id="cancel-login" class="quiet">Cancel native sign-in</button>
+</section>
+</section>
+<section class="card" aria-labelledby="display-title">
+<h2 id="display-title">Display settings</h2>
+<form id="settings-form">
+<label for="source">Data source</label><select id="source"><option value="account_quota">Account quota snapshot</option><option value="session">Native session context</option><option value="both">Quota and session context</option></select>
+<div class="two-fields"><div><label for="refresh">Refresh interval (seconds)</label><input id="refresh" type="number" min="5" max="3600" required></div><div><label for="stale">Stale after (seconds)</label><input id="stale" type="number" min="5" max="86400" required></div></div>
+<label class="check"><input id="show-reset" type="checkbox"> Show reset countdowns when supplied</label>
+<label class="check"><input id="show-context" type="checkbox"> Show context usage when supplied</label>
+<button id="save" type="submit" class="primary" disabled>Save display settings</button>
+</form>
+<p class="small">A refresh reads the latest received native snapshot. It does not run a model or force an upstream quota refresh.</p>
+</section>
+<section class="card preview-card" aria-labelledby="preview-title">
+<div><h2 id="preview-title">Data preview</h2><p class="small">Browser preview, not a running stock-firmware renderer.</p></div>
+<div class="device-preview">
+<div class="preview-label">USAGE</div><div class="metric"><div><span>5-hour quota</span><strong id="five-value">—</strong></div><div class="bar"><i id="five-bar"></i></div><small id="five-reset">No native snapshot</small></div>
+<div class="metric"><div><span>Weekly quota</span><strong id="seven-value">—</strong></div><div class="bar"><i id="seven-bar"></i></div><small id="seven-reset">No native snapshot</small></div>
+<div id="context-row" class="context">Context <strong id="context-value">—</strong></div>
+<div id="preview-state">Waiting for verified source data</div>
+</div><p id="data-age" class="small">Unavailable is not zero usage.</p>
+</section>
+</div>
+<footer><strong>Authentication boundary:</strong> account passwords, browser cookies and OAuth/session tokens stay with the official native client. No such fields are accepted in display configuration. Native terminal input is transient; the numeric telemetry relay never receives it.<br><span>This backend prototype is loopback-only. Stock embedded UI integration, secure LAN management, firmware and device boot remain unverified.</span></footer>
+</main>
+</body>
+</html>

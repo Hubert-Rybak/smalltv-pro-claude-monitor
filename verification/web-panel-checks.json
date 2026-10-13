@@ -1,0 +1,80 @@
+{
+  "scope": "Backend-hosted web configuration prototype, not stock device deployment or verified account usage",
+  "local_suite": {
+    "counts": {
+      "tests": 57,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "junit_sha256": "9df556a49a9393ea0254e4e42323d86a0b0ca9c6c3edc263bd8f9068b73bc9c6"
+  },
+  "original_evidence_suite": {
+    "counts": {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "junit_sha256": "93ed37df1a134368d9f4a80ee25b59cca507b921f60b82d5f2793be4879a3111"
+  },
+  "real_native": {
+    "unmodified_native_client_version": "2.1.296",
+    "binary_sha256": "24972e3bc859fab2b46ed4c1e51f7d6130f06d3bd550811a114640de3370d0de",
+    "actual_status": {
+      "available": true,
+      "logged_in": false,
+      "method": "none"
+    },
+    "native_login_init_verified": true,
+    "authorization_host": "claude.com",
+    "authorization_path": "/cai/oauth/authorize",
+    "account_authorization_completed": false,
+    "authorization_code_entered": false,
+    "cancellation_verified": true
+  },
+  "real_http": {
+    "real_http_settings_roundtrip": true,
+    "read_only_native_test": true,
+    "display_disconnect_only": true,
+    "native_authenticated": false,
+    "real_usage_data_available": false,
+    "configuration_file_mode": "0600",
+    "refresh_seconds": 45
+  },
+  "browser_native_initiation": {
+    "state": "Login required",
+    "terminalVisible": true,
+    "provider": "claude.com",
+    "promptSeen": true,
+    "errors": []
+  },
+  "browser_mobile": {
+    "viewport": 390,
+    "overflow": false,
+    "refresh": "45",
+    "state": "Login required",
+    "five": "\u2014",
+    "buttonHeight": 44,
+    "errors": [],
+    "syntheticZeroAndFailureStatesPassed": true,
+    "accountLoginCompleted": false
+  },
+  "security_scan": {
+    "changed_files_scanned": 10,
+    "issues": [],
+    "no_independent_judge_or_reviewer": true
+  },
+  "temporary_test_server_stopped": true,
+  "actual_account_authorization_completed": false,
+  "real_native_usage_received": false,
+  "stock_web_interface_integrated": false,
+  "firmware_modified": false,
+  "device_modified": false,
+  "judge_used": false,
+  "warnings": [
+    "Native follow-up test file disappeared externally again and was restored byte-exactly from its sealed archive; removal cause unknown",
+    "Browser CLI stdout helper directories disappeared between calls; clean named sessions restored browser execution",
+    "Native terminal transport positive tests are explicitly synthetic; no real authorization code was entered"
+  ]
+}
