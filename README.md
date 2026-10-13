@@ -4,7 +4,9 @@ Stock-preserving reverse engineering and a planned usage display for the GeekMag
 
 ## Current status
 
-**Research/tooling snapshot, not an installable firmware release.** No replacement renderer, working web login/backend, patched firmware or device installation is claimed.
+**Research plus a working backend-hosted web configuration prototype—not an installable firmware release.** Settings persistence, connection checks, official native-client sign-in initiation and private terminal transport are implemented. Actual account authorization, real account telemetry, the stock embedded page integration, replacement renderer and device boot are not yet verified.
+
+See [`docs/web-panel-prototype.md`](docs/web-panel-prototype.md) for the runnable panel and its exact limitations. The backend is deliberately loopback-only; no stock device has been changed.
 
 The selected change is **Picture → usage display**. The other seven registered apps—BitCoin, Stock, Weather, Monitor, Clock, Idea and Settings—are to remain unchanged. Existing uploaded images are not to be deleted.
 
@@ -37,7 +39,7 @@ Reports and recorded launch scripts retain source-workspace paths as provenance.
 
 ## Portable verification
 
-Python 3.10+ and pytest are sufficient:
+Python 3.10+ and pytest run the backend/portable suite. Node is additionally used for the JavaScript state regression and syntax check (Node 26 was exercised); the Node regression is explicitly skipped when Node is absent.
 
 ```bash
 python -m pip install -r requirements-dev.txt
